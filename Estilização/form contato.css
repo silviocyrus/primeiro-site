@@ -14,8 +14,7 @@ body {
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: #47b1d1;
-  
+  background-color: #487aa1;
 }
 
 .container {
@@ -86,7 +85,7 @@ fieldset {
     cursor: pointer;
     width: 100%;
     border-radius: 5px;
-    background: #47b1d1;
+    background: #487aa1;
     color: #FFF;
     margin: 0 0 5px;
     padding: 10px;
