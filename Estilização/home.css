@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*cabecalho*/
+header {
+  width: 100%;
+  height: 150px;
+  background: #487aa1;
+}
+
+/*texto Navarro caminhões*/
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #161616;
+}
+.conteudo{
+  max-width: 1000px;
+  min-width: 300px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+nav{
+  width: 100%;
+  height: 150px;
+  display:flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+
+}
+nav ul{
+  display:flex;
+  flex-direction: row;
+}
+nav ul li{
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+nav ul li a{
+  color:#111113;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav ul li a:hover{
+color: #00285f83;
+
+}
+
+footer {
+  background-color: #487aa1;
+  width: 100%;
+  height: 90px;
+}
+header.logo-volvo{
+width: 15px;
+height: 15px;
+
+}
+
+#img-instagram {
+  width: 110px;
+  height: 98px;
+}
+#img-facebook {
+  width: 90px;
+  height: 100px;
+}
+footer #img-instagram {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+footer #img-instagram {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+}
+footer #img-facebook {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
